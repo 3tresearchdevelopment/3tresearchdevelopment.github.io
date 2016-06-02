@@ -6,6 +6,19 @@
  * Made By MaterializeCSS.com
  */
 
+#index-banner{
+    padding-top: 0px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-image: url('../images/banner.jpg');
+    overflow: hidden;
+}
+
 .icon-block {
   padding: 0 15px;
 }
@@ -13,6 +26,7 @@
 .big-nav a{
 	color: #000;
 }
+
 footer.page-footer{
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -23,6 +37,38 @@ footer.page-footer{
 .margin-remove{
 	margin-bottom: 0px;
 }
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
 
 @media only screen and (max-width : 992px) {
 	.big-nav{

@@ -10,23 +10,27 @@
   <meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
   <meta name="msapplication-config" content="favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
+  <!-- bxSlider Javascript file -->
+  
+  <!-- bxSlider CSS file -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="js/responsiveslides.min.js"></script>
   <!-- CSS  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body class="grey lighten-3">
-  
+<body class="grey lighten-3">  
   	<nav class="white" id="nav" role="navigation">
 		<div class="nav-wrapper container">
 		<a id = "logo" href="#" class="brand-logo black-text">3T-Technologies</a>
 		<ul class="right big-nav">
-        <li><a href="#project">Products</a></li>
-		  	<li><a href="#about">About Us</a></li>
+      <li><a href="#project">Products</a></li>
+	  	<li><a href="#about">About Us</a></li>
 		</ul>
 		<ul id="nav-mobile" class="side-nav">
-		  	<li class="blue"><a class="white-text" href="#nav">Home</a></li>
-		  	<li><a href="#project">Products</a></li>
-		  	<li><a href="#about">About Us</a></li>
+	  	<li class="blue"><a class="white-text" href="#nav">Home</a></li>
+	  	<li><a href="#project">Products</a></li>
+	  	<li><a href="#about">About Us</a></li>
 		</ul>
 		<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu black-text"></i></a>
 	</div>
@@ -34,9 +38,9 @@
 
   	<section>
   	<div class="section" id="index-banner">
-  		<div class="container">
-		  	<div class="row">
+        <div class="row white-text">
 		        <div class="col s12 m12 center">
+                <br><br><br><br>
 	          		<h2>
 	          			A Medical Robots,
 	          			<br>
@@ -46,25 +50,94 @@
 	          		</h2>
 		      	</div>
 		  	</div>
- 		  </div>
 	  </div>
   
-    <div class="section blue white-text z-depth-1" id="project">
+    <div class="section z-depth-1" id="project">
       <div class="container">
         <h3>Products</h3>
         <br><br>
-        <!--   Icon Section   -->
           <div class="row">
-            <div class="col s12 center">
-              <a href="safeMri.html" title="mri"><img class="responsive-img z-depth-1" src="images/mri1.jpg"></a>
-              <h5>Safe MRI</h5>
+              <div class="col s12 m5 left">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+              <div class="col s12 m7 right">
+                <ul class="rslides">
+                  <li><img src="images/mri1_full.jpg" alt=""></li>
+                  <li><img src="images/mri2_full.jpg" alt=""></li>
+                  <li><img src="images/mri3_full.jpg" alt=""></li>
+                </ul>
             </div>
+          </div>
+          
+      </div>
+    </div>
+
+    <div class="section blue white-text" id="project">
+        <div class="container">
+          <h3>Meet the Team</h3>
+          <br><br>
+          <!--   Icon Section   -->
+            <div class="row">
+              <div class="col s12 m3">
+                <a href="http://tsgsd.com" title="work"><img class="responsive-img z-depth-1 circle" src="images/stan.jpg"></a>
+              </div>
+              <div class="col s12 m9">
+                <h5>T. Stan Gregory, EL</h5>
+                <p>Postdoctoral Research Fellow in the College of Engineering with an 
+                    interest in bio-instrumentation and novel physiological monitoring
+                    techniques.  He has a passion for translating his ideas into real ventures.</p>
+              </div>
+            </div>
+            <br><br>
+            <div class="row">
+              <div class="col s12 m3">
+                <a href="http://medicalrobotics.engr.uga.edu" title="work"><img class="responsive-img z-depth-1 circle" src="images/zion.png"></a>
+              </div>
+              <div class="col s12 m9">
+                <h5>Zion Tsz Ho Tse, PI</h5>
+                <p>Assistant Professor in the College of Engineering and Principal 
+                    Investigator of the UGA Medical Robotics Laboratory.  He maintains a 
+                    strong interest in personal medicine and entrepreneurship.</p>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    <div class="section" id="project">
+      <div class="container">
+        <h3>Contact Us</h3>
+        <br><br>
+          <div class="row">
+              <div class="col s12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="col s12 m12 center">
+                  <iframe
+                width="300"
+                height="200"
+                frameborder="0" style="border:0"
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDpMOmJzQJDEWPF502gmQGPdW172HSW4lc
+                  &q=Driftmier+Engineering+Center,+Agriculture+Dr,+Athens,+GA+30602" allowfullscreen>
+              </iframe>
+              </div>
           </div>
       </div>
     </div>
   </section>
 
-  <footer class="page-footer grey lighten-3 z-depth-3" id="footer">
+  
+
+  <footer class="page-footer blue white-text z-depth-3" id="footer">
     <div class="container">
       <br>
       <div class="row margin-remove">
@@ -76,8 +149,6 @@
           <ul>
             <li>Driftmier Engineering Center Annex Rm. 120</li>
             <li>597 D.W. Brooks Drive, Athens, Georgia</li>
-            <br>
-            <li><a class="blue-text" href="https://www.google.com/maps/place/College+of+Engineering/@33.938753,-83.3746763,17z/data=!4m5!3m4!1s0x0000000000000000:0xd904af6d6e581f21!8m2!3d33.938855!4d-83.3757605" target="_blank">Google Map</a></li>
           </ul>
         </div>
         <div class="col l3 s12">
@@ -91,7 +162,7 @@
     </div>
   </footer>
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
   <script src="js/init.js"></script>
 </body>
