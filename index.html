@@ -13,8 +13,9 @@
   <!-- bxSlider Javascript file -->
   
   <!-- bxSlider CSS file -->
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-  <script src="js/responsiveslides.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="js/slippry.min.js"></script>
+  <link rel="stylesheet" href="css/slippry.css" />
   <!-- CSS  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -57,21 +58,34 @@
         <h3>Products</h3>
         <br><br>
           <div class="row">
-              <div class="col s12 m5 left">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              <div class="col s12 l4 left">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               </div>
-              <div class="col s12 m7 right">
-                <ul class="rslides">
-                  <li><img src="images/mri1_full.jpg" alt=""></li>
-                  <li><img src="images/mri2_full.jpg" alt=""></li>
-                  <li><img src="images/mri3_full.jpg" alt=""></li>
+              <br>
+              <div class="col s12 l8 right">
+                <ul id="thumbnails">
+                 <li>
+                    <a href="#slide1">
+                      <img src="images/mri1_full.jpg" alt="This is caption 1 <a href='#link'>Even with links!</a>">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#slide2">
+                      <img src="images/mri2_full.jpg"  alt="This is caption 2">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#slide3">
+                      <img src="images/mri3_full.jpg" alt="And this is some very long caption for slide 3. Yes, really long.">
+                    </a>
+                  </li>
                 </ul>
-            </div>
+              </div>
           </div>
           
       </div>
@@ -83,10 +97,10 @@
           <br><br>
           <!--   Icon Section   -->
             <div class="row">
-              <div class="col s12 m3">
+              <div class="col s12 m2">
                 <a href="http://tsgsd.com" title="work"><img class="responsive-img z-depth-1 circle" src="images/stan.jpg"></a>
               </div>
-              <div class="col s12 m9">
+              <div class="col s12 m10">
                 <h5>T. Stan Gregory, EL</h5>
                 <p>Postdoctoral Research Fellow in the College of Engineering with an 
                     interest in bio-instrumentation and novel physiological monitoring
@@ -95,10 +109,10 @@
             </div>
             <br><br>
             <div class="row">
-              <div class="col s12 m3">
+              <div class="col s12 m2">
                 <a href="http://medicalrobotics.engr.uga.edu" title="work"><img class="responsive-img z-depth-1 circle" src="images/zion.png"></a>
               </div>
-              <div class="col s12 m9">
+              <div class="col s12 m10">
                 <h5>Zion Tsz Ho Tse, PI</h5>
                 <p>Assistant Professor in the College of Engineering and Principal 
                     Investigator of the UGA Medical Robotics Laboratory.  He maintains a 
